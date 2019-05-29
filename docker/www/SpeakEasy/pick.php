@@ -1,6 +1,6 @@
 <?php
 //include('conexion.php');
-$conexion= new mysqli("localhost","root","","speakeasy");
+$conexion= new mysqli("localhost","user","test","speakeasy");
 $ubicacion = "";
 
 if($conexion->connect_errno){
